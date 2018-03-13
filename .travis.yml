@@ -7,7 +7,7 @@ install:
   - rm -rf public || exit 0
 
 script:
-  - binaries/hugo --theme=fresh
+  - binaries/hugo
 
 deploy:
   provider: pages
