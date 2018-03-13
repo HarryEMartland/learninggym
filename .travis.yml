@@ -14,5 +14,6 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local-dir: public
+  fqdn: improcrastinating.com
   on:
     branch: master
