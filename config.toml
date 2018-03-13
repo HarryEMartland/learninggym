@@ -1,0 +1,11 @@
+baseURL = "http://improcrastinating.com/"
+languageCode = "en-us"
+title = "Learning Gym"
+
+
+[[menu.main]]
+    name = "Programming"
+    url = "/about/"
+[[menu.main]]
+    name = "getting started"
+    url = "/getting-started/"

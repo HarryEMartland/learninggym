@@ -1,0 +1,14 @@
+
+{{ $.Scratch.Set "color" "green" }}
+
+{{ if eq .Params.Difficulty "medium" }}
+    {{ $.Scratch.Set "color" "orange" }}
+{{end}}
+
+{{ if eq .Params.Difficulty "hard" }}
+    {{ $.Scratch.Set "color" "red" }}
+{{end}}
+
+
+
+<span class="new badge {{ $.Scratch.Get "color" }}" data-badge-caption="{{.Params.Difficulty}}"></span>
