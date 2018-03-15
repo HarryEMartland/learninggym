@@ -1,26 +1,42 @@
 {{ define "main" }}
-<article>
-    <header>
-        <h2>{{.Title}}</h2>
-    </header>
-    {{.Content}}
-</article>
-
-
 <div class="row">
-    <div class="col s12 m6">
-        {{ range .Data.Pages }}
-        <div class="card blue-grey darken-1">
+    <div class="col s12 ">
+        <h2>{{.Title}}</h2>
+    </div>
+    <div class="col s12">
+        <div class="flow-text">
+            {{.Content}}
+        </div>
+    </div>
+    {{ range where .Data.Pages "Params.primary" true }}
+    <div class="col s12 m4">
+        <div class="card hoverable blue-grey darken-1 ">
             <div class="card-content white-text">
                 <span class="card-title">{{.Title}}</span>
                 <p>{{.Content | truncate 150}}</p>
             </div>
             <div class="card-action">
-                <a href="{{.Params.Link.Url}}">Learn</a>
+                <a href="{{.Params.Link}}" target="_blank">Learn</a>
                 <a href="{{.Permalink}}">More Info</a>
             </div>
         </div>
-        {{ end }}
     </div>
+    {{ end }}
+
+</div>
+
+<div class="row">
+
+    <h3>Other Resources</h3>
+
+    <div class="collection">
+        {{ range where .Data.Pages "Params.primary" false }}
+        <a href="{{.Permalink}}" class="collection-item">
+            {{.Title}}
+        </a>
+        {{end}}
+    </div>
+
+
 </div>
 {{end}}
