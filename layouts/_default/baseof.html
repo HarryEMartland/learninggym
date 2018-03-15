@@ -55,6 +55,14 @@
 
   <body>
   <ul id="slide-out" class="side-nav fixed">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="/images/books.jpg" style="width: 300px;height: 250px">
+      </div>
+      <div class="row">
+        <a href="/"><h4 class="white-text">LearningGym</h4></a>
+      </div>
+    </div></li>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }} {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
