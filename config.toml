@@ -1,3 +1,4 @@
 baseURL = "http://improcrastinating.com/"
 languageCode = "en-us"
 title = "Learning Gym"
+sectionPagesMenu = "main"

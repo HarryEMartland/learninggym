@@ -54,10 +54,13 @@
   </head>
 
   <body>
-
   <ul id="slide-out" class="side-nav fixed">
-      <li><a href="#!">First Sidebar Link</a></li>
-      <li><a href="#!">Second Sidebar Link</a></li>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }} {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+      <a href="{{ .URL }}">{{.Name}}</a>
+    </li>
+    {{ end }}
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
 
