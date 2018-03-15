@@ -27,16 +27,18 @@
 
 <div class="row">
 
-    <h3>Other Resources</h3>
+    {{if where  .Data.Pages "Params.primary" false }}
+
+    <h4>Other Resources</h4>
 
     <div class="collection">
-        {{ range where .Data.Pages "Params.primary" false }}
+        {{ range where  .Data.Pages "Params.primary" false }}
         <a href="{{.Permalink}}" class="collection-item">
             {{.Title}}
         </a>
         {{end}}
     </div>
-
+    {{end}}
 
 </div>
 {{end}}
