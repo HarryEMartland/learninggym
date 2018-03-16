@@ -3,6 +3,23 @@
     <div class="col s12 ">
         <h2>{{.Title}}</h2>
     </div>
+    <div class="col s12 flow-text">
+        {{if .Params.FacebookLink}}
+            <a href="{{.Params.FacebookLink}}" target="_blank"><img style="height: 1em" src="/images/fb.png"></a>
+        {{end}}
+        {{if .Params.GithubLink}}
+        <a href="{{.Params.GithubLink}}" target="_blank"><img style="height: 1em" src="/images/github.png"></a>
+        {{end}}
+        {{if .Params.TwitterLink}}
+            <a href="{{.Params.TwitterkLink}}" target="_blank"><img style="height: 1em" src="/images/twitter.svg"></a>
+        {{end}}
+        {{if .Params.WikiLink}}
+            <a href="{{.Params.WikiLink}}" target="_blank"><img style="height: 1em" src="/images/wikipedia.svg"></a>
+        {{end}}
+        {{if .Params.ExternalLink}}
+        <a href="{{.Params.ExternalLink}}" target="_blank" class="black-text"><i class="material-icons">link</i></a>
+        {{end}}
+    </div>
     <div class="col s12">
         <div class="flow-text">
             {{.Content}}
