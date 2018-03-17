@@ -1,0 +1,65 @@
+---
+title: "Request a Task"
+date: 2018-03-17T17:03:45Z
+draft: false
+---
+
+<form class="col s12 form-to-github-issue">
+    <input type='hidden' class='github-label' value='New Task'/>
+    <div class="row">
+        <div class='col s12'>
+            This form will open up in GitHub to raise an issue with the provided information.
+            If you would rather make the change yourself please open a pull request <a
+                href='https://github.com/HarryEMartland/learninggym'>here</a>.
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <input id="taskName" name='Name' type="text" class="github-title" required>
+            <label for="taskName">Task Name</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="taskLink" type="text" name='Link' class="github-field">
+            <label for="taskLink">Link</label>
+        </div>
+        <div class="input-field col s6">
+            <input id="taskSubject" name='Subject' type="text" class="github-field" required>
+            <label for="taskSubject">Subject</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <select id='taskDifficulty' name='Difficulty' class='github-field' required>
+                <option value="" disabled selected>Select a Difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            <label for='taskDifficulty'>Difficulty</label>
+        </div>
+        <div class="input-field col s6">
+            <select multiple class='github-field' name='Tags' id="taskTags">
+                <option value="" disabled selected>Select Tags</option>
+                <option value="interactive">Interactive</option>
+                <option value="pay wall">Pay Wall</option>
+            </select>
+            <label for="taskTags">Tags</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+                <textarea id="taskDescription" class="materialize-textarea github-field"
+                          name='Description' required></textarea>
+            <label for="taskDescription">Description</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <input type='submit' class="waves-effect waves-light btn" value='Create Issue'/>
+        </div>
+    </div>
+
+</form>

@@ -1,0 +1,63 @@
+---
+title: "Request a Subject"
+date: 2018-03-17T17:03:45Z
+draft: false
+---
+<form class="col s12 form-to-github-issue">
+    <input type='hidden' class='github-label' value='New Subject'/>
+
+    <div class="row">
+        <div class='col s12'>
+            This form will open up in GitHub to raise an issue with the provided information.
+            If you would rather make the change yourself please open a pull request <a
+                href='https://github.com/HarryEMartland/learninggym'>here</a>.
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <input id="subjectName" name='Name' type="text" class="github-title" required>
+            <label for="subjectName">Subject Name</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="subjectFacebookLink" type="text" name='Facebook Link' class="github-field">
+            <label for="subjectFacebookLink">Facebook Link</label>
+        </div>
+        <div class="input-field col s6">
+            <input id="subjectGithubLink" name='Subject' type="text" class="github-field">
+            <label for="subjectGithubLink">GitHub Link</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="subjectTwitterLink" name='Subject' type="text" class="github-field">
+            <label for="subjectTwitterLink">Twitter Link</label>
+        </div>
+        <div class="input-field col s6">
+            <input id="subjectHomepageLink" name='Subject' type="text" class="github-field">
+            <label for="subjectHomepageLink">Homepage Link</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="subjectWikipediaLink" name='Subject' type="text" class="github-field">
+            <label for="subjectWikipediaLink">Wikipedia Link</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+                <textarea id="taskDescription" class="materialize-textarea github-field"
+                          name='Description' required></textarea>
+            <label for="taskDescription">Description</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+
+        <input type='submit' class="waves-effect waves-light btn" value='Create Issue'/>
+        </div>
+    </div>
+</form>
+
+        
