@@ -17,3 +17,6 @@ deploy:
   fqdn: improcrastinating.com
   on:
     branch: master
+
+after_deploy:
+  - curl -X DELETE "https://api.cloudflare.com/client/v4/zones/$CLOUD_FLARE_IDENTIFIER/purge_cache" -H "X-Auth-Email: $CLOUD_FLARE_EMAIL" -H "X-Auth-Key: $CLOUD_FLARE_AUTH" -H "Content-Type: application/json" --data '{"purge_everything":true}'
