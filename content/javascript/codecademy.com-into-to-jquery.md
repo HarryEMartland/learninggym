@@ -2,7 +2,7 @@
 type: task
 title: "Into to Jquery"
 date: 2018-03-15T21:43:52Z
-draft: true
+draft: false
 primary: true
 link: "https://www.codecademy.com/learn/learn-jquery"
 difficulty: "medium"

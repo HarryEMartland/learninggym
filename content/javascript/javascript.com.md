@@ -1,7 +1,7 @@
 ---
 title: "Javascript.com"
 date: 2018-03-15T21:20:53Z
-draft: true
+draft: false
 primary: true
 link: "https://www.javascript.com/try"
 difficulty: "easy"

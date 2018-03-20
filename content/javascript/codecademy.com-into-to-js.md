@@ -1,7 +1,7 @@
 ---
 title: "Intro to JavaScript"
 date: 2018-03-15T21:29:04Z
-draft: true
+draft: false
 primary: true
 link: "https://www.codecademy.com/learn/introduction-to-javascript"
 type: task

@@ -2,7 +2,7 @@
 type: task
 title: "Codeschool.com"
 date: 2018-03-15T21:52:18Z
-draft: true
+draft: false
 weight: 999
 primary: false
 link: "https://www.codeschool.com/learn/javascript"
