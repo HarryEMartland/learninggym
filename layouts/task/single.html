@@ -12,14 +12,18 @@
     </div>
 </div>
 
-<div class="fixed-action-btn horizontal">
-    <a class="btn-floating btn-large green waves-effect waves-circle waves-light " href="{{.Params.Link}}">
-        <i class="material-icons">launch</i>
-    </a>
-    <ul>
-        <li><a class="btn-floating waves-effect waves-circle waves-light " href="/"><i class="material-icons">home</i></a></li>
-        <li><a class="btn-floating waves-effect waves-circle waves-light " href="{{.Parent.Permalink}}"><i class="material-icons">arrow_back</i></a></li>
-    </ul>
-</div>
+{{end}}
 
+{{ define "floating-button" }}
+<a class="btn-floating btn-large green waves-effect waves-circle waves-light " href="{{.Params.Link}}">
+    <i class="material-icons">launch</i>
+</a>
+{{end}}
+
+{{ define "floating-sub-buttons" }}
+<li><a class="btn-floating waves-effect waves-circle waves-light" href="/"><i class="material-icons">home</i></a></li>
+<li><a class="btn-floating waves-effect waves-circle waves-light" href="{{.Parent.Permalink}}"><i class="material-icons">arrow_back</i></a></li>
+    {{if (.Params.Gitter)}}
+        <li><a class="btn-floating waves-effect waves-circle waves-light open-gitter" ><i class="material-icons">chat</i></a></li>
+    {{end}}
 {{end}}
