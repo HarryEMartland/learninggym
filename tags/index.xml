@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Learning Gym</title>
+    <link>http://improcrastinating.com/tags/</link>
+    <description>Recent content in Tags on Learning Gym</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Mar 2018 21:20:53 +0000</lastBuildDate>
+    
+	<atom:link href="http://improcrastinating.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interactive</title>
+      <link>http://improcrastinating.com/tags/interactive/</link>
+      <pubDate>Thu, 15 Mar 2018 21:20:53 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/tags/interactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pay Wall</title>
+      <link>http://improcrastinating.com/tags/pay-wall/</link>
+      <pubDate>Thu, 15 Mar 2018 21:52:18 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/tags/pay-wall/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

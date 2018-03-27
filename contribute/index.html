@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Learning Gym  | Contribute</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="generator" content="Hugo 0.37.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    
+      <link href="http://improcrastinating.com/contribute/index.xml" rel="alternate" type="application/rss+xml" title="Learning Gym" />
+      <link href="http://improcrastinating.com/contribute/index.xml" rel="feed" type="application/rss+xml" title="Learning Gym" />
+    
+
+    <meta property="og:title" content="Contribute" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://improcrastinating.com/contribute/" />
+
+
+
+<meta property="og:updated_time" content="2018-03-17T16:59:45&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Contribute">
+<meta itemprop="description" content="">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Contribute"/>
+<meta name="twitter:description" content=""/>
+
+      <style>
+          header, main, footer {
+              padding-left: 200px;
+          }
+
+          @media only screen and (max-width : 992px) {
+              header, main, footer {
+                  padding-left: 0;
+              }
+          }
+
+        .single-line {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      </style>
+  </head>
+
+  <body>
+  <ul id="slide-out" class="side-nav fixed">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="/images/books.jpg" style="width: 300px;height: 250px">
+      </div>
+      <div class="row">
+        <a href="/"><h4 class="white-text">LearningGym</h4></a>
+      </div>
+    </div></li>
+    
+    
+    <li class="active active">
+      <a href="/contribute/">Contribute</a>
+    </li>
+    
+    <li class=" ">
+      <a href="/javascript/">JavaScript</a>
+    </li>
+    
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+
+  <main class="container">
+      
+<h1>Contribute</h1>
+    
+
+<p>Learning Gym is designed to be built and maintained by the community.
+We encourage people to add new subjects and new tasks either by using the forms on this website or by making a pull request on GitHub.</p>
+
+<h4 id="request-a-subject-or-task">Request a Subject or Task</h4>
+
+<p>The buttons below will take to to a form which you can fill in to request a task or subject to be added.
+Please fill in as many of the fields as possible.</p>
+
+<div class='row'>
+    <div class='col m6 s12 input-field'>
+        <a class="waves-effect waves-light btn" href='subject' style='width:100%'>Request a Subject</a>
+    </div>
+    <div class='col m6 s12 input-field'>
+        <a class="waves-effect waves-light btn" href='task' style='width:100%'>Request a Task</a>
+    </div>
+</div>
+
+<h4 id="github-pull-request-advanced">GitHub Pull Request (Advanced)</h4>
+
+<p>This website is built using <a href="https://gohugo.io/">hugo</a> which is a static site generator.</p>
+
+<p>To add a new subject use the command <code>hugo new &lt;subject&gt;/_index.md -k subject</code> where <code>&lt;subject&gt;</code> is the name of the subject being created.
+You can then edit the new index file, fill in some of the links which you know and add a description in the main body of the file.</p>
+
+<p>To add tasks to a subject use the command <code>hugo new &lt;subject&gt;/&lt;taks&gt;.mb</code> where <code>&lt;subject&gt;</code> is the name of the subject for the task and <code>&lt;task&gt;</code> is the name of the task.
+You can then edit the new file filling in the properties at the top and adding a description to the main body of the file.</p>
+
+<p>To view your changes use the command <code>hugo server -D</code> then go to <a href="http://localhost:1313/">http://localhost:1313/</a> in your browser and navigate to the page.</p>
+
+<h4 id="page-properties">Page Properties</h4>
+
+<p>Subject and Task pages have some special properties which can be used.
+These properties give the pages extra functionality or change how they are displayed on other pages.
+The properties should be filled in as completely as possible.
+If you notice any incorrect properties please raise an issue on GitHub or Make a pull request.</p>
+
+<h5 id="subject">Subject</h5>
+
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>facebookLink</td>
+<td>Link to Facebook</td>
+</tr>
+
+<tr>
+<td>githubLink</td>
+<td>Link to GitHub</td>
+</tr>
+
+<tr>
+<td>twitterLink</td>
+<td>Link to twitter</td>
+</tr>
+
+<tr>
+<td>externalLink</td>
+<td>Link to external website</td>
+</tr>
+
+<tr>
+<td>wikiLink</td>
+<td>Link to Wikipedia</td>
+</tr>
+</tbody>
+</table>
+
+<h5 id="task">Task</h5>
+
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>weight</td>
+<td>Used to order the tasks</td>
+</tr>
+
+<tr>
+<td>primary</td>
+<td>If the task should be shown at the top of the page in a card</td>
+</tr>
+
+<tr>
+<td>link</td>
+<td>The link to the task</td>
+</tr>
+
+<tr>
+<td>difficulty</td>
+<td>How hard the task is (easy, medium, hard, expert)</td>
+</tr>
+
+<tr>
+<td>tags</td>
+<td>Tags which describe the task</td>
+</tr>
+</tbody>
+</table>
+
+
+
+    <div class="fixed-action-btn horizontal">
+        
+          
+        
+      <ul>
+        
+      </ul>
+    </div>
+  </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="/js/app.js"></script>
+
+    
+  </body>
+</html>

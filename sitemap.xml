@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://improcrastinating.com/javascript/javascript.com/</loc>
+    <lastmod>2018-03-15T21:20:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/javascript/codecademy.com-into-to-js/</loc>
+    <lastmod>2018-03-15T21:29:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/javascript/codecademy.com-into-to-jquery/</loc>
+    <lastmod>2018-03-15T21:43:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/javascript/codeschool.com/</loc>
+    <lastmod>2018-03-15T21:52:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/contribute/subject/</loc>
+    <lastmod>2018-03-17T17:03:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/contribute/task/</loc>
+    <lastmod>2018-03-17T17:03:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/contribute/</loc>
+    <lastmod>2018-03-17T16:59:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/</loc>
+    <lastmod>2018-03-13T20:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/javascript/</loc>
+    <lastmod>2018-03-12T18:19:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/tags/interactive/</loc>
+    <lastmod>2018-03-15T21:20:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/tags/pay-wall/</loc>
+    <lastmod>2018-03-15T21:52:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://improcrastinating.com/tags/</loc>
+    <lastmod>2018-03-15T21:20:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

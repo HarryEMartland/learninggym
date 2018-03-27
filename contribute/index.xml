@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contribute on Learning Gym</title>
+    <link>http://improcrastinating.com/contribute/</link>
+    <description>Recent content in Contribute on Learning Gym</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Mar 2018 16:59:45 +0000</lastBuildDate>
+    
+	<atom:link href="http://improcrastinating.com/contribute/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Request a Subject</title>
+      <link>http://improcrastinating.com/contribute/subject/</link>
+      <pubDate>Sat, 17 Mar 2018 17:03:45 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/contribute/subject/</guid>
+      <description>This form will open up in GitHub to raise an issue with the provided information. If you would rather make the change yourself please open a pull request here.   Subject Name   Facebook Link  GitHub Link   Twitter Link  Homepage Link   Wikipedia Link    Description      </description>
+    </item>
+    
+    <item>
+      <title>Request a Task</title>
+      <link>http://improcrastinating.com/contribute/task/</link>
+      <pubDate>Sat, 17 Mar 2018 17:03:45 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/contribute/task/</guid>
+      <description>This form will open up in GitHub to raise an issue with the provided information. If you would rather make the change yourself please open a pull request here.   Task Name   Link  Subject   Select a Difficulty Easy Medium Hard Advanced  Difficulty  Select Tags Interactive Pay Wall Video  Tags    Description      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning Gym</title>
+    <link>http://improcrastinating.com/</link>
+    <description>Recent content on Learning Gym</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2018 20:06:21 +0000</lastBuildDate>
+    
+	<atom:link href="http://improcrastinating.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript.com</title>
+      <link>http://improcrastinating.com/javascript/javascript.com/</link>
+      <pubDate>Thu, 15 Mar 2018 21:20:53 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/javascript/javascript.com/</guid>
+      <description>This is a great website if you have never done any programming or javascript before. A super friendly and easy to use website.</description>
+    </item>
+    
+    <item>
+      <title>Intro to JavaScript</title>
+      <link>http://improcrastinating.com/javascript/codecademy.com-into-to-js/</link>
+      <pubDate>Thu, 15 Mar 2018 21:29:04 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/javascript/codecademy.com-into-to-js/</guid>
+      <description>Another good place to start with Javascript But goes into more detail and leads into more advanced areas.</description>
+    </item>
+    
+    <item>
+      <title>Into to Jquery</title>
+      <link>http://improcrastinating.com/javascript/codecademy.com-into-to-jquery/</link>
+      <pubDate>Thu, 15 Mar 2018 21:43:52 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/javascript/codecademy.com-into-to-jquery/</guid>
+      <description>Jquery is a powerful library build on JavaScript to make web development easy. You should be comfortable with JavaScript basics before starting this course. The course will explain JQuery to you so you don&amp;rsquo;t need any prior experience with it.</description>
+    </item>
+    
+    <item>
+      <title>Codeschool.com</title>
+      <link>http://improcrastinating.com/javascript/codeschool.com/</link>
+      <pubDate>Thu, 15 Mar 2018 21:52:18 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/javascript/codeschool.com/</guid>
+      <description>Similar to the Codecademy.com tutorials with no prior knowledge required. The site also has tutorials for libraries such as JQuery and React. A lot of the content is locked behind pay wall.</description>
+    </item>
+    
+    <item>
+      <title>Request a Subject</title>
+      <link>http://improcrastinating.com/contribute/subject/</link>
+      <pubDate>Sat, 17 Mar 2018 17:03:45 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/contribute/subject/</guid>
+      <description>This form will open up in GitHub to raise an issue with the provided information. If you would rather make the change yourself please open a pull request here.   Subject Name   Facebook Link  GitHub Link   Twitter Link  Homepage Link   Wikipedia Link    Description      </description>
+    </item>
+    
+    <item>
+      <title>Request a Task</title>
+      <link>http://improcrastinating.com/contribute/task/</link>
+      <pubDate>Sat, 17 Mar 2018 17:03:45 +0000</pubDate>
+      
+      <guid>http://improcrastinating.com/contribute/task/</guid>
+      <description>This form will open up in GitHub to raise an issue with the provided information. If you would rather make the change yourself please open a pull request here.   Task Name   Link  Subject   Select a Difficulty Easy Medium Hard Advanced  Difficulty  Select Tags Interactive Pay Wall Video  Tags    Description      </description>
+    </item>
+    
+  </channel>
+</rss>
