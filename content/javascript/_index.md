@@ -7,5 +7,6 @@ wikiLink: "https://en.wikipedia.org/wiki/JavaScript"
 ---
 
 JavaScript is the language of the web. 
-You can use it to add dynamic behaviour, store information, and handle requests and responses on a website. 
-The concepts covered in these courses lay the foundation for adding this behaviour.
+You can use it to add extra abilities to a website. 
+It is a programming language and usually runs on the users computer.
+Most companies looking to hire someone to make a website expect knowledge about this language.
